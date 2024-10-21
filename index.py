@@ -35,13 +35,15 @@ def definirLinguagem():
         if pessoa.nome == 'Carlos' and pessoa.nacao == 'espanhol':
             print('\tSim ele é Espanhol')
 
-print('\n\tLista dos fluente em português')
+print('\n\t1. Lista dos fluentes em português\n')
 fluentePortugues()
+print('=======================================')
 
-print('\n\tCarlos é espanhol?')
+print('\t2.Carlos é Espanhol?\n')
 definirLinguagem()
+print('=======================================')
 
-print('\n\tLista das Pessoas:\n')
+print('\t3.Lista das Pessoas:\n')
 listaLinguistica()
 print('\n')
 
