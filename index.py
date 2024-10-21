@@ -25,6 +25,22 @@ def listaLinguistica():
     if pessoa.lingua == 'espanhol' and pessoa.nacao == 'espanhol':
         print(f'\t{pessoa.nome} é {pessoa.nacao}')
 
+def fluentePortugues():
+    for pessoa in pessoas:
+        if pessoa.lingua == 'português':
+            print(f'\t{pessoa.nome} fala português')
+
+def definirLinguagem():
+    for pessoa in pessoas:
+        if pessoa.nome == 'Carlos' and pessoa.nacao == 'espanhol':
+            print('\tSim ele é Espanhol')
+
+print('\n\tLista dos fluente em português')
+fluentePortugues()
+
+print('\n\tCarlos é espanhol?')
+definirLinguagem()
+
 print('\n\tLista das Pessoas:\n')
 listaLinguistica()
 print('\n')
